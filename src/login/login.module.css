@@ -1,0 +1,81 @@
+.login_box {
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 35px;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.button {
+  background-color: #01bfbd;
+  border-color: #01bfbd;
+}
+
+.button:active,
+.button:hover,
+.button:focus {
+  background-color: #0f1f24;
+  border-color: #0f1f24;
+}
+
+.text {
+  color: #01bfbd;
+  cursor: pointer;
+}
+
+.text:hover {
+  color: #0f1f24;
+}
+
+.priceCard {
+  height: 320px;
+  width: 450px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+}
+
+.priceCard:hover{
+    background-color:#091b20;
+    color: #fff;
+}
+
+.badgeBg{
+    background-color: #0f1f24;
+    font-size: 1.5rem;
+}
+.priceText{
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .login_box {
+    padding: 35px 100px;
+  }
+}
+
+@media (max-width: 992px) {
+    .priceCard {
+        height: 110px;
+        width: 150px;
+        border-radius: 8px;
+        background-color: #091b20;
+        transition: all 0.2s linear;
+        color: #fff
+      }
+      .badgeBg{
+        color: #0f1f24;
+        background-color: #fff;
+        font-size: 0.7rem;
+    }
+    .priceText{
+        font-size: 1rem;
+    }
+
+    .dateText{
+        color: #fff;
+        font-size: 0.6rem;
+    }
+  }
