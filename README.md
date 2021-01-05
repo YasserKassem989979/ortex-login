@@ -1,12 +1,14 @@
 # Ortex Login Page
 
 
-In the project directory, you can run:
+to run the app:
 
-### `yarn start`
+1- git clone https://github.com/YasserKassem989979/ortex-login.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2- cd ortex-login
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3- npm i
+
+4- npm run start
+
+5 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
